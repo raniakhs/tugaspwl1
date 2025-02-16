@@ -1,0 +1,91 @@
+body {
+    font-family: script;
+    margin: 0;
+    padding: 0;
+    background-color: #ffb6c1; 
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f0f0;
+    color: #333;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #f8f0f0;
+    padding: 20px;
+}
+
+.profile-image {
+    text-align: center; /* Center the image */
+    margin-bottom: 20px;
+}
+
+.sidebar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.sidebar h1 {
+    margin-bottom: 10px;
+    text-align: center;
+     /* Line-height: 1.5*/
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-style: script;
+    text-align: center; /* Center the title */
+}
+
+.contact, .education, .skills {
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+    /* Line-height: 1.5*/
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+}
+
+.content {
+    flex: 1;
+    background-color: #f8f0f0;
+    padding: 20px;
+    /*Line-height: 1.5 */
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    margin-bottom: 5px;
+}
+
+/* Line-height: 1.5 */
+p {
+    margin-bottom: 10px;
+}
+
+.education-entry {
+    margin-bottom: 15px; /* Space between education entries */
+}
